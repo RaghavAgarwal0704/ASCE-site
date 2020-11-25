@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap&family=Raleway:wght@400;600");
+:root {
+    --text: #414141;
+    --text-alt: #cccccc;
+    --primary: #787b86;
+    --secondary: #115173;
+    --highlight: #ffa62b;
+    --info: #111f4d;
+    --danger: #c70039;
+    --warning: #f8b500;
+    --bg: #f0f0f0;
+    --bg-alt: #3d3d3d;
+    --alt: 245, 181, 7;
+    --shadow: 23, 23, 23
+}
+
+#root {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+* {
+    color: var(--text);
+    transition: background .4s ease-in-out, color .3s ease-in-out
+}
+
+html {
+    overflow-x: hidden;
+    max-width: 100vw;
+    background-color: var(--bg)!important;
+}
+
+body {
+    margin: 0;
+    padding-right: 0 !important;
+    font-family: 'Noto Sans JP', 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+.color-secondary {
+    color: var(--secondary)!important;
+}
+
+.color-primary {
+    color: var(--primary)!important;
+}
+
+.Raleway {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-link h6 {
+    font-size: 20px
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-end {
+    text-align: end;
+}
+
+.text-align-left {
+    text-align: start;
+}
+
+.link {
+    padding: .92rem .5rem;
+    color: var(--primary)!important;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: var(--secondary)!important;
+    text-decoration: none;
+}
+
+
+/* ========================================== */
+
+.sticky-bottom {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    align-self: flex-end;
+    z-index: 2000;
+}
+
+a:hover {
+    color: var(--secondary)!important
+}
+
+.btn.btn-outline-secondary {
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
+.btn.btn-outline-secondary:hover {
+    background-color: var(--secondary)!important;
+    border-color: var(--secondary);
+    color: white!important
+    /* opacity: .7; */
+}
+
+.btn.btn-secondary {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.btn.btn-secondary:hover {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+    opacity: 0.75;
+}
+
+.btn.btn-secondary:focus {
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+    opacity: 0.75;
+    box-shadow: 0 0 0 0.1rem rgba(235, 242, 248, 0.13)
+}
+
+.btn.btn-secondary:active {
+    border-color: var(--secondary)!important;
+    background-color: var(--secondary)!important;
+    opacity: 0.75;
+    box-shadow: 0 0 0 0.1rem rgba(227, 233, 238, 0.158)!important
+}
