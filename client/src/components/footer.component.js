@@ -1,55 +1,108 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/footer.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+    faAngleDoubleRight,
+    faAngleDown,
+    faAngleUp,
+} from "@fortawesome/free-solid-svg-icons";
 import {
     faFacebook,
     faInstagram,
     faLinkedin,
     faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Collapse, NavbarToggler } from "reactstrap";
 export default function FooterComponent() {
+    const [isOpenLinks, setIsOpenLinks] = useState(true);
+    const [isOpenContact, setIsOpenContact] = useState(true);
+    const toggle = () => setIsOpenLinks(!isOpenLinks);
+    const toggleContact = () => setIsOpenContact(!isOpenContact);
     return (
         <footer className=' py-3 footer'>
             <div className='mx-2 mx-sm-2  mx-md-5'>
                 <div className='row justify-content-center'>
-                    <div className='col-lg-5 col-8 about-company'>
+                    <div className='col-lg-5 col-12 about-company'>
                         <h3>ASCE</h3>
                         <p className='pr-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing
                             elit. Sequi qui pariatur vel! Dicta, quibusdam
                         </p>
                     </div>
-                    <div className='col-lg-3 col-4 links'>
-                        <h5 className='mt-lg-0 mt-sm-3 '>Links</h5>
-                        <ul className='m-0 p-0 '>
-                            <li>
-                                <FontAwesomeIcon icon={faAngleDoubleRight} />{" "}
-                                <Link to='/'>Home</Link>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon={faAngleDoubleRight} />{" "}
-                                <Link to='/event'>Event</Link>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon icon={faAngleDoubleRight} />{" "}
-                                <Link to='/about'>About</Link>
-                            </li>
-                        </ul>
+                    <div className='col-lg-3 col-12 links text-align-center'>
+                        <h5 className='mt-lg-0 mt-sm-3 '>
+                            Links
+                            <NavbarToggler
+                                onClick={toggle}
+                                className={`d-inline d-lg-none position-relative ${
+                                    !isOpenLinks ? "collapsed" : ""
+                                }`}>
+                                <FontAwesomeIcon
+                                    icon={
+                                        !isOpenLinks ? faAngleDown : faAngleUp
+                                    }
+                                />
+                            </NavbarToggler>
+                        </h5>
+                        <Collapse
+                            isOpen={isOpenLinks}
+                            navbar
+                            className='justify-content-lg-center'>
+                            <ul className='m-0 p-0 '>
+                                <li>
+                                    <FontAwesomeIcon
+                                        icon={faAngleDoubleRight}
+                                    />{" "}
+                                    <Link to='/'>Home</Link>
+                                </li>
+                                <li>
+                                    <FontAwesomeIcon
+                                        icon={faAngleDoubleRight}
+                                    />{" "}
+                                    <Link to='/event'>Event</Link>
+                                </li>
+                                <li>
+                                    <FontAwesomeIcon
+                                        icon={faAngleDoubleRight}
+                                    />{" "}
+                                    <Link to='/about'>About</Link>
+                                </li>
+                            </ul>
+                        </Collapse>
                         <br />
                     </div>
 
-                    <div className='col-lg-4 col-12 location'>
-                        <h5 className='mt-lg-0 mt-sm-4'>Contact Us</h5>
-                        <p>
-                            Address : Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Aspernatur pariatur sed, quis
-                        </p>
-                        <p className='mb-0'>(+91) 9999-888-888</p>
-                        <p>support@asce.com</p>
+                    <div className='col-lg-4 col-12 location text-align-center'>
+                        <h5 className='mt-lg-0 mt-sm-3 '>
+                            Contact Us
+                            <NavbarToggler
+                                onClick={toggleContact}
+                                className={`d-inline d-lg-none position-relative ${
+                                    !isOpenContact ? "collapsed" : ""
+                                }`}>
+                                <FontAwesomeIcon
+                                    icon={
+                                        !isOpenContact ? faAngleDown : faAngleUp
+                                    }
+                                />
+                            </NavbarToggler>
+                        </h5>
+                        <Collapse
+                            isOpen={isOpenContact}
+                            navbar
+                            className='justify-content-lg-center'>
+                            <p>
+                                Address : Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Aspernatur
+                                pariatur sed, quis
+                            </p>
+                            <p style={{ textAlign: "end" }}>
+                                <p className='mb-0'>(+91) 9999-888-888</p>
+                                <p>support@asce.com</p>
+                            </p>
+                        </Collapse>
                     </div>
                 </div>
                 <div className='row'>
@@ -75,10 +128,15 @@ export default function FooterComponent() {
                                     <FontAwesomeIcon icon={faTwitter} />
                                 </a>
                             </li>
+                            <li className='list-inline-item'>
+                                <a href='mailto:jainsparsh0801@gmail.com'>
+                                    <FontAwesomeIcon icon={faEnvelope} />
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <hr />
                 </div>
+                <hr className='bg-secondary' />
                 <div className='row mt-1'>
                     <div className='col copyright'>
                         <small className='text-white-50'>
