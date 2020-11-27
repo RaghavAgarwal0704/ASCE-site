@@ -1,7 +1,8 @@
 .footer {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    bottom: 0;
+    margin-top: auto!important;
+    /* bottom: 0; */
     background: var(--bg-alt);
     color: var(--text-alt)!important;
 }
@@ -60,7 +61,7 @@
 }
 
 .location p {
-    text-align: start
+    text-align: end
 }
 
 @media (max-width:990px) {

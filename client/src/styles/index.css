@@ -17,9 +17,13 @@
 #root {
     min-height: 100vh;
     position: relative;
-    padding-bottom: 310px;
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 310px; */
 }
 
+
+/* 
 @media (max-width:991px) {
     #root {
         padding-bottom: 581px!important;
@@ -30,7 +34,7 @@
     #root {
         padding-bottom: 530px!important;
     }
-}
+} */
 
 .row {
     margin-left: 0px;
