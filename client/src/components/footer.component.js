@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/footer.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,6 +16,16 @@ import {
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Collapse, NavbarToggler } from "reactstrap";
 export default function FooterComponent() {
+    useEffect(() => {
+        const handleResize = () => {
+            const open = window.innerWidth >= 992;
+            setIsOpenContact(open);
+            setIsOpenLinks(open);
+        };
+
+        window.addEventListener("resize", handleResize);
+        // return () => window.removeEventListener("resize", handleResize);
+    }, []);
     const [isOpenLinks, setIsOpenLinks] = useState(true);
     const [isOpenContact, setIsOpenContact] = useState(true);
     const toggle = () => setIsOpenLinks(!isOpenLinks);
