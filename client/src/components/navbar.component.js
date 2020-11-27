@@ -51,11 +51,18 @@ const NavbarComponent = () => {
                     className='justify-content-lg-center'>
                     <Nav className='row justify-content-center px-4' navbar>
                         <NavItem className='m-1 my-2 my-lg-1'>
+                            <NavLink to='/' exact>
+                                Home
+                            </NavLink>
+                        </NavItem>
+                        <NavItem className='m-1 my-2 my-lg-1'>
                             <NavLink to='/about'>About</NavLink>
                         </NavItem>
-
                         <NavItem className='m-1 my-2 my-lg-1'>
                             <NavLink to='/event'>Events</NavLink>
+                        </NavItem>
+                        <NavItem className='m-1 my-2 my-lg-1'>
+                            <NavLink to='/sponsors'>Sponsors</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

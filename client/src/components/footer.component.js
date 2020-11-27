@@ -38,7 +38,12 @@ export default function FooterComponent() {
                         <h3>ASCE</h3>
                         <p className='pr-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Sequi qui pariatur vel! Dicta, quibusdam
+                            elit. Sequi qui pariatur vel! Dicta, quibusdam Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit.
+                            Corrupti beatae quas aliquid distinctio aut saepe
+                            quae totam natus nulla quidem ratione quis autem,
+                            similique vitae assumenda hic? Incidunt, fugit
+                            laboriosam!
                         </p>
                     </div>
                     <div className='col-lg-3 col-12 links text-align-center'>
@@ -60,7 +65,12 @@ export default function FooterComponent() {
                             isOpen={isOpenLinks}
                             navbar
                             className='justify-content-lg-center'>
-                            <ul className='m-0 p-0 '>
+                            <ul
+                                className='mx-auto my-2 p-0 '
+                                style={{
+                                    width: "fit-content",
+                                    textAlign: "start",
+                                }}>
                                 <li>
                                     <FontAwesomeIcon
                                         icon={faAngleDoubleRight}
@@ -79,9 +89,14 @@ export default function FooterComponent() {
                                     />{" "}
                                     <Link to='/about'>About</Link>
                                 </li>
+                                <li>
+                                    <FontAwesomeIcon
+                                        icon={faAngleDoubleRight}
+                                    />{" "}
+                                    <Link to='/sponsors'>Sponsors</Link>
+                                </li>
                             </ul>
                         </Collapse>
-                        <br />
                     </div>
 
                     <div className='col-lg-4 col-12 location text-align-center'>
