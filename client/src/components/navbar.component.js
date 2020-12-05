@@ -8,6 +8,10 @@ import {
     Alert,
     Nav,
     NavItem,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownItem,
+    DropdownMenu,
 } from "reactstrap";
 
 const NavbarComponent = () => {
@@ -61,9 +65,26 @@ const NavbarComponent = () => {
                         <NavItem className='m-1 my-2 my-lg-1'>
                             <NavLink to='/event'>Events</NavLink>
                         </NavItem>
-                        <NavItem className='m-1 my-2 my-lg-1'>
-                            <NavLink to='/sponsors'>Sponsors</NavLink>
-                        </NavItem>
+                        {/* <NavItem className=''> */}
+                        <UncontrolledDropdown
+                            nav
+                            inNavbar
+                            className='m-1 my-2 my-lg-1 p-0'>
+                            <DropdownToggle nav caret>
+                                <NavLink to='/sponsors'>Sponsors</NavLink>
+                            </DropdownToggle>
+                            <DropdownMenu left>
+                                <DropdownItem>
+                                    <Link to='/sponsors'>Sponsors</Link>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <Link to='/sponsors/become'>
+                                        Become a sponsor
+                                    </Link>
+                                </DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
+                        {/* </NavItem> */}
                     </Nav>
                 </Collapse>
             </Navbar>
