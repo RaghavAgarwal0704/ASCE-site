@@ -1,15 +1,99 @@
 <html>
-    <head></head>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <style>
+            body{
+                position:absolute;
+                margin:0;
+                padding:0;
+            }
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+            #container{
+                position:relative;
+                /* height:50%;
+                top:10%;
+                bottom:20%;
+                width:60%; */
+                border:1px solid black;
+                /* left:10%; */
+                padding:2% ;
+                width:60%;
+                top:5%;
+            }
+            .box{
+                font-size:20px;
+                font-weight: bold;
+                padding:10px;
+                border:2px solid #CFB53B;
+                border-radius:1px;
+                border-width:2px 2px 2px 15px;
+                width:200px;
+                text-align:center;
+            }
+            #parent{
+                position:relative;  
+                width:100%;
+                display:inline-block;
+            }
+            #conf{
+                position:relative;
+                width:40%;
+                float:left;
+                padding:0px;
+                margin:0px;
+
+            }
+            #bec{
+                position:relative;
+                width:40%;
+                float:right;
+                padding:0px;
+            }
+            #line{
+                border:1px dotted black;
+            }
+            #comp{
+                position:relative;
+                width:90%; 
+            }
+            a{
+                text-decoration: none;
+                color:blue;
+            }
+            #boxConf{
+                position:relative;
+                width:100%;
+            }
+            #boxBec{
+                position:relative;
+                width:90%;
+            }
+        </style>
+    </head>
     <body>
-        <h1>ASCE 2021 Southeast Student Conference</h1>
-        <p>The ASCE 2021 Southeast Student Conference will be March 25-27, 2021, hosted by Vanderbilt University and Lipscomb University. 
-        Put on your cowboy boots and travel back to the Wild West and join us in  Engineering for a New Frontier .
-        If you have any questions, email conference organizers at<a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
-        <div>Competetions released</div>
-        <p>Visit our <a href="/events.html">events</a> page to view this year's competetions!</p>
-        <div>What is an ASCE Student Conference</div>
-        <div>Become a Sponsor</div>
-        <div><p>Visit our <a href="about.html">about page</a> to learn more about the ASCE 2021 Southeast Student Conference</p></div>
-        <div><p>Visit our <a>sponsors page</a> to learn more about supporting the ASCE 2021 Southeast Student Conference!</p></div>
+        <div id="container">
+            <h1>ASCE 2021 Southeast Student Conference</h1>
+            <hr id="line">
+            <p>The ASCE 2021 Southeast Student Conference will be March 25-27, 2021, hosted by Vanderbilt University and Lipscomb University. 
+            Put on your cowboy boots and travel back to the Wild West and join us in  Engineering for a New Frontier.</p>
+            <p><br>
+            If you have any questions, email conference organizers at <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+            <div class="box" id="comp">Mailer 1 and Competetions released</div>
+            <p>Visit our <a href="/events.html">events</a> page to view this year's competetions!</p><br><br><br>
+            <div id="parent">
+                <div id="conf">
+                    <div class="box" id="boxConf">What is an ASCE Student Conference?</div><br>
+                    <p>Visit our <a href="about.html">about page</a> to learn more about the ASCE 2021 Southeast Student Conference</p>
+                </div>
+                <div id="bec">
+                    <div class="box" id="boxBec">Become a Sponsor</div><br>
+                    <p>Visit our <a href="sponsors.html">sponsors page</a> to learn more about supporting the ASCE 2021 Southeast Student Conference!</p>
+                </div>
+            </div>
+            <br><br>
+        </div> 
     </body>
 </html>
