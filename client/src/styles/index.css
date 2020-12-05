@@ -4,7 +4,7 @@
     --text-alt: #b3b3b3;
     --primary: #787b86;
     --secondary: #ffbb00;
-    --highlight: #ffbb00;
+    --highlight: #CFB53B;
     --info: #111f4d;
     --danger: #c70039;
     --warning: #f8b500;
@@ -73,8 +73,16 @@ h5 {
     color: var(--secondary)!important;
 }
 
+.color-highlight {
+    color: var(--highlight)!important;
+}
+
 .bg-secondary {
     background-color: var(--secondary)!important;
+}
+
+.bg-highlight {
+    background-color: var(--highlight)!important;
 }
 
 .color-primary {

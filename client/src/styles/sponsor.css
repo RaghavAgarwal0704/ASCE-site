@@ -1,0 +1,13 @@
+.box {
+    border: 2px solid var(--highlight);
+    border-radius: 1px;
+    border-width: 2px 2px 2px 15px;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin: .25rem;
+}
+
+.line {
+    border: 1px dotted black;
+}
