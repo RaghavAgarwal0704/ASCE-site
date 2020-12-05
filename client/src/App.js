@@ -3,6 +3,8 @@ import Home from "./pages/index.page";
 import Event from "./pages/event.page";
 import About from "./pages/about.page";
 import Sponsor from "./pages/sponsor.page";
+import BecomeSponsor from "./pages/becomeSponsor.page";
+
 import Navbar from "./components/navbar.component";
 import Footer from "./components/footer.component";
 function App() {
@@ -14,7 +16,8 @@ function App() {
                     <Route path='/' exact component={Home} />
                     <Route path='/about' component={About} />
                     <Route path='/event' component={Event} />
-                    <Route path='/sponsors' component={Sponsor} />
+                    <Route path='/sponsors' exact component={Sponsor} />
+                    <Route path='/sponsors/become' component={BecomeSponsor} />
                 </Switch>
             </main>
             <Footer />
