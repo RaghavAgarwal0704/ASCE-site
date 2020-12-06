@@ -36,7 +36,7 @@ export default function FooterComponent() {
                 <div className='row justify-content-center'>
                     <div className='col-lg-5 col-12 about-company'>
                         <h3>ASCE</h3>
-                        <p className='pr-5'>
+                        <p className='pr-0 pr-lg-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing
                             elit. Sequi qui pariatur vel! Dicta, quibusdam Lorem
                             ipsum dolor sit, amet consectetur adipisicing elit.
