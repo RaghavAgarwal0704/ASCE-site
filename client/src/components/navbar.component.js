@@ -77,12 +77,14 @@ const NavbarComponent = () => {
                                     className='display-inline px-0'></DropdownToggle>
                                 <DropdownMenu className='dropdown-menu-center'>
                                     <DropdownItem>
-                                        <Link to='/sponsors'>Sponsors</Link>
+                                        <NavLink to='/sponsors' exact>
+                                            Sponsors
+                                        </NavLink>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <Link to='/sponsors/become'>
+                                        <NavLink to='/sponsors/become'>
                                             Become a sponsor
-                                        </Link>
+                                        </NavLink>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
