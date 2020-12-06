@@ -65,26 +65,28 @@ const NavbarComponent = () => {
                         <NavItem className='m-1 my-2 my-lg-1'>
                             <NavLink to='/event'>Events</NavLink>
                         </NavItem>
-                        {/* <NavItem className=''> */}
-                        <UncontrolledDropdown
-                            nav
-                            inNavbar
-                            className='m-1 my-2 my-lg-1 p-0'>
-                            <DropdownToggle nav caret>
-                                <NavLink to='/sponsors'>Sponsors</NavLink>
-                            </DropdownToggle>
-                            <DropdownMenu left>
-                                <DropdownItem>
-                                    <Link to='/sponsors'>Sponsors</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link to='/sponsors/become'>
-                                        Become a sponsor
-                                    </Link>
-                                </DropdownItem>
-                            </DropdownMenu>
-                        </UncontrolledDropdown>
-                        {/* </NavItem> */}
+                        <NavItem className='m-1 my-2 my-lg-1'>
+                            <NavLink to='/sponsors'>Sponsors</NavLink>
+                            <UncontrolledDropdown
+                                nav
+                                inNavbar
+                                className='display-inline px-0'>
+                                <DropdownToggle
+                                    nav
+                                    caret
+                                    className='display-inline px-0'></DropdownToggle>
+                                <DropdownMenu className='dropdown-menu-center'>
+                                    <DropdownItem>
+                                        <Link to='/sponsors'>Sponsors</Link>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <Link to='/sponsors/become'>
+                                            Become a sponsor
+                                        </Link>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>

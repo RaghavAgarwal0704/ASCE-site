@@ -131,6 +131,10 @@ input[type="number"] {
     text-align: start!important;
 }
 
+.display-inline {
+    display: inline!important;
+}
+
 .link {
     padding: .92rem .5rem;
     color: var(--primary)!important;
