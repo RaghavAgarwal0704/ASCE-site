@@ -37,13 +37,10 @@ export default function FooterComponent() {
                     <div className='col-lg-5 col-12 about-company'>
                         <h3>ASCE</h3>
                         <p className='pr-0 pr-lg-5'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Sequi qui pariatur vel! Dicta, quibusdam Lorem
-                            ipsum dolor sit, amet consectetur adipisicing elit.
-                            Corrupti beatae quas aliquid distinctio aut saepe
-                            quae totam natus nulla quidem ratione quis autem,
-                            similique vitae assumenda hic? Incidunt, fugit
-                            laboriosam!
+                            ASCE-VIT is a student chapter in Vellore Institute of Technology, Vellore, 
+                            committed towards inspiring and motivating personalities in the field of civil engineering. 
+                            It is a group of 75 dedicated students who are relentless in their endeavours.
+
                         </p>
                     </div>
                     <div className='col-lg-3 col-12 links text-align-center'>
@@ -119,9 +116,7 @@ export default function FooterComponent() {
                             navbar
                             className='justify-content-lg-center'>
                             <p>
-                                Address : Lorem ipsum dolor sit, amet
-                                consectetur adipisicing elit. Aspernatur
-                                pariatur sed, quis
+                                Address : Vellore Institute of Technology, Vellore
                             </p>
                             <p style={{ textAlign: "end" }}>
                                 <p className='mb-0'>(+91) 9999-888-888</p>
@@ -134,22 +129,17 @@ export default function FooterComponent() {
                     <div className='col-xs-12 col-sm-12 col-md-12 mt-2'>
                         <ul className='list-unstyled list-inline social text-center'>
                             <li className='list-inline-item'>
-                                <a href='https://www.facebook.com/'>
+                                <a href='https://www.facebook.com/asceVIT/'>
                                     <FontAwesomeIcon icon={faFacebook} />
                                 </a>
                             </li>
                             <li className='list-inline-item'>
-                                <a href='https://www.instagram.com/'>
+                                <a href='https://instagram.com/asce.vit?igshid=ccdsz9lhltnd'>
                                     <FontAwesomeIcon icon={faInstagram} />
                                 </a>
                             </li>
                             <li className='list-inline-item'>
-                                <a href='https://www.linkedin.com/'>
-                                    <FontAwesomeIcon icon={faLinkedin} />
-                                </a>
-                            </li>
-                            <li className='list-inline-item'>
-                                <a href='https://twitter.com/'>
+                                <a href='https://twitter.com/asce__vit?s=21'>
                                     <FontAwesomeIcon icon={faTwitter} />
                                 </a>
                             </li>
