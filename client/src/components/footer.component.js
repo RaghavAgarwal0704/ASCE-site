@@ -37,10 +37,11 @@ export default function FooterComponent() {
                     <div className='col-lg-5 col-12 about-company'>
                         <h3>ASCE</h3>
                         <p className='pr-0 pr-lg-5'>
-                            ASCE-VIT is a student chapter in Vellore Institute of Technology, Vellore, 
-                            committed towards inspiring and motivating personalities in the field of civil engineering. 
-                            It is a group of 75 dedicated students who are relentless in their endeavours.
-
+                            ASCE-VIT is a student chapter in Vellore Institute
+                            of Technology, Vellore, committed towards inspiring
+                            and motivating personalities in the field of civil
+                            engineering. It is a group of 75 dedicated students
+                            who are relentless in their endeavours.
                         </p>
                     </div>
                     <div className='col-lg-3 col-12 links text-align-center'>
@@ -116,11 +117,12 @@ export default function FooterComponent() {
                             navbar
                             className='justify-content-lg-center'>
                             <p>
-                                Address : Vellore Institute of Technology, Vellore
+                                Address : Vellore Institute of Technology,
+                                Vellore
                             </p>
                             <p style={{ textAlign: "end" }}>
                                 <p className='mb-0'>(+91) 9999-888-888</p>
-                                <p>support@asce.com</p>
+                                <p>asce@vit.ac.in</p>
                             </p>
                         </Collapse>
                     </div>
