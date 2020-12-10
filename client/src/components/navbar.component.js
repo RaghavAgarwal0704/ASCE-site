@@ -64,6 +64,32 @@ const NavbarComponent = () => {
                         </NavItem>
                         <NavItem className='m-1 my-2 my-lg-1'>
                             <NavLink to='/event'>Events</NavLink>
+                            <UncontrolledDropdown
+                                nav
+                                inNavbar
+                                className='display-inline px-0'>
+                                <DropdownToggle
+                                    nav
+                                    caret
+                                    className='display-inline px-0'></DropdownToggle>
+                                <DropdownMenu className='dropdown-menu-center'>
+                                    <DropdownItem>
+                                        <NavLink to='/event/national' exact>
+                                            National Events
+                                        </NavLink>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <NavLink to='/event/inhouse'>
+                                            Inhouse Events
+                                        </NavLink>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <NavLink to='/event/workshop'>
+                                            Workshops
+                                        </NavLink>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </UncontrolledDropdown>
                         </NavItem>
                         <NavItem className='m-1 my-2 my-lg-1'>
                             <NavLink to='/sponsors'>Sponsors</NavLink>
