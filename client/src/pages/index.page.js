@@ -14,7 +14,7 @@ const Index = () => {
                 </p>
                 <p className='mt-3'>
                     If you have any questions, email conference organizers at{" "}
-                    <a href='mailto:xyz@gmail.com'>xyz@gmail.com</a>
+                    <a href='mailto:asce@vit.ac.in'>asce@vit.ac.in</a>
                 </p>
                 <div className='box'>
                     <h5>Mailer 1 and Competetions released</h5>

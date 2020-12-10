@@ -146,7 +146,7 @@ export default function FooterComponent() {
                                 </a>
                             </li>
                             <li className='list-inline-item'>
-                                <a href='mailto:jainsparsh0801@gmail.com'>
+                                <a href='mailto:asce@vit.ac.in'>
                                     <FontAwesomeIcon icon={faEnvelope} />
                                 </a>
                             </li>

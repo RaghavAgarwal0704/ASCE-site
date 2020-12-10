@@ -38,7 +38,7 @@ const BecomeSponsor = () => {
             <div>
                 To start the sponsorship process, or if you have any questions
                 please contact conference organizers:{" "}
-                <a href='mailto:xyz@gmail.com'>xyz@gmail.com</a>
+                <a href='mailto:asce@vit.ac.in'>asce@vit.ac.in</a>
             </div>
         </div>
     );

@@ -43,7 +43,7 @@ const Event = () => {
             </div>
             <p>
                 To contact conference organizers, please email{" "}
-                <a href='mailto:xyz@gmail.com'>xdyz@gmail.com</a>
+                <a href='mailto:asce@vit.ac.in'>asce@vit.ac.in</a>
             </p>
         </div>
     );

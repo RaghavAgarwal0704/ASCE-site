@@ -39,7 +39,7 @@ const About = () => {
             </div>
             <p>
                 To contact conference organizers, please email{" "}
-                <a href='mailto:xyz@gmail.com'>xyz@gmail.com</a>
+                <a href='mailto:asce@vit.ac.in'>asce@vit.ac.in</a>
             </p>
         </div>
     );
