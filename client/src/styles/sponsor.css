@@ -8,6 +8,12 @@
     margin: .25rem;
 }
 
+.box h5,
+.box h3,
+.box h4 {
+    margin-bottom: 0px;
+}
+
 .line {
     border: 1px dotted black;
 }
