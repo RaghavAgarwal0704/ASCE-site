@@ -32,3 +32,12 @@ a img {
 .centered h4 {
     font-weight: 600;
 }
+
+.box h3,
+.box h4 {
+    text-align: left!important
+}
+
+article p {
+    text-align: justify;
+}
