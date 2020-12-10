@@ -37,13 +37,10 @@ export default function FooterComponent() {
                     <div className='col-lg-5 col-12 about-company'>
                         <h3>ASCE</h3>
                         <p className='pr-0 pr-lg-5'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Sequi qui pariatur vel! Dicta, quibusdam Lorem
-                            ipsum dolor sit, amet consectetur adipisicing elit.
-                            Corrupti beatae quas aliquid distinctio aut saepe
-                            quae totam natus nulla quidem ratione quis autem,
-                            similique vitae assumenda hic? Incidunt, fugit
-                            laboriosam!
+                            ASCE-VIT is a student chapter in Vellore Institute of Technology, Vellore, 
+                            committed towards inspiring and motivating personalities in the field of civil engineering. 
+                            It is a group of 75 dedicated students who are relentless in their endeavours.
+
                         </p>
                     </div>
                     <div className='col-lg-3 col-12 links text-align-center'>
