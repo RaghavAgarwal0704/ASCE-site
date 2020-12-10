@@ -1,0 +1,59 @@
+            body{
+                position:absolute;
+                margin:0;
+                padding:0;
+            }
+            *{
+                font-family: 'Roboto', sans-serif;
+            }
+            #container{
+                position:relative;
+                padding:2% ;
+                width:60%;
+                top:5%;
+            }
+            .box{
+                font-size:20px;
+                font-weight: bold;
+                padding:10px;
+                border:2px solid #CFB53B;
+                border-radius:1px;
+                border-width:2px 2px 2px 15px;
+                width:200px;
+                text-align:center;
+            }
+            #line{
+                border:1px dotted black;
+            }
+            #comp{
+                position:relative;
+                width:90%; 
+            }
+            a{
+                text-decoration: none;
+                color:blue;
+            }
+            #parent { 
+                text-align: center;
+                position:relative;  
+                width:100%;
+            }
+            #div-1 {
+                position:relative;
+                float: left;
+                width:30%; 
+            }
+            #div-2 {
+                position:relative;
+                display: inline-block;
+                width:30%; 
+            }
+            #div-3 { 
+                position:relative;
+                float: right;
+                width:30%; 
+            }
+            #parent a{
+                text-decoration:none;
+                color:black;
+            }
