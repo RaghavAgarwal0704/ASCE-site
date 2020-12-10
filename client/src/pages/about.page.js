@@ -1,4 +1,5 @@
 import React from "react";
+import doc from "../assets/brochure.pdf";
 const About = () => {
     return (
         <div className='col-12 col-md-11 col-lg-10 mx-auto my-2'>
@@ -22,7 +23,7 @@ const About = () => {
             </p>
             <div className='row justify-content-center'>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
-                    <a href='abcd.pdf' target='_blank'>
+                    <a href={doc} target='_blank' rel='noreferrer'>
                         <div class='box'>Mailer 1</div>
                     </a>
                     <p>Released October 15, 2020</p>
