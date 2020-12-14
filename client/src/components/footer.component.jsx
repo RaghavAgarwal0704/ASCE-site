@@ -10,7 +10,6 @@ import {
 import {
     faFacebook,
     faInstagram,
-    faLinkedin,
     faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
