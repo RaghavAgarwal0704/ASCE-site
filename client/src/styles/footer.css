@@ -1,7 +1,8 @@
 .footer {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    bottom: 0;
+    margin-top: auto!important;
+    /* bottom: 0; */
     background: var(--bg-alt);
     color: var(--text-alt)!important;
 }
@@ -11,7 +12,11 @@
 .footer h3,
 .footer h4,
 .footer h5 {
-    color: white!important;
+    color: var(--highlight)!important;
+}
+
+.footer .navbar-toggler {
+    color: var(--text-alt)!important;
 }
 
 .footer .links ul {
@@ -53,4 +58,14 @@
 
 .footer .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.location p {
+    text-align: end
+}
+
+@media (max-width:990px) {
+    .location p {
+        text-align: center
+    }
 }

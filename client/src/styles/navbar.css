@@ -7,6 +7,18 @@
     font-size: 1.5rem;
 }
 
+.navbar .dropdown-menu.show {
+    background-color: var(--bg-alt);
+}
+
+.navbar .dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item:hover {
+    color: var(--highlight);
+    text-decoration: none;
+    background-color: var(--bg-alt);
+}
+
 .navbar-brand:hover {
     color: var(--highlight)!important;
 }
@@ -26,6 +38,23 @@
 .nav-item a:hover {
     color: var(--highlight)!important;
     text-decoration: none;
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: auto;
+    text-align: center;
+}
+
+@media (min-width:992px) {
+    .dropdown-menu-center {
+        text-align: left;
+        right: auto;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
 }
 
 
