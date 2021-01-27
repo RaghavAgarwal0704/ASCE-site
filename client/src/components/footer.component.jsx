@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/footer.css";
+// import "../styles/footer.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
