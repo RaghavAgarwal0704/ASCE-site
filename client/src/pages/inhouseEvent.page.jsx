@@ -15,7 +15,7 @@ const InhouseCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/inhouse/unbreakable'>
                         <img src={unbreakable} alt='unbreakable' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>Unbreakable(quiz)</h4>
                         </div>
                     </Link>
@@ -23,7 +23,7 @@ const InhouseCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/inhouse/acethespace'>
                         <img src={acethespace} alt='acethespace' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>Ace the Space</h4>
                         </div>
                     </Link>
@@ -31,7 +31,7 @@ const InhouseCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/inhouse/cadathon'>
                         <img src={cadathon} alt='cadathon' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>CAD-A-THON</h4>
                         </div>
                     </Link>
@@ -39,7 +39,7 @@ const InhouseCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/inhouse/paper'>
                         <img src={paper} alt='paper' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>Paper presentation</h4>
                         </div>
                     </Link>

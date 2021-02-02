@@ -14,7 +14,7 @@ const NationalCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/national/canoe'>
                         <img src={canoe} alt='canoe' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>ASCE Concrete Canoe Competition</h4>
                         </div>
                     </Link>
@@ -22,7 +22,7 @@ const NationalCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/national/sustainable'>
                         <img src={sustainable} alt='sustainable' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>ASCE Sustainable Solutions Competition</h4>
                         </div>
                     </Link>
@@ -30,7 +30,7 @@ const NationalCompetitions = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/national/survey'>
                         <img src={survey} alt='survey' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>ASCE UESI Surveying Competition</h4>
                         </div>
                     </Link>
