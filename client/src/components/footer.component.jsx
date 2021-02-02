@@ -126,7 +126,6 @@ export default function FooterComponent() {
                                 Vellore
                             </p>
                             <p style={{ textAlign: "end" }}>
-                                <p className='mb-0'>(+91) 9999-888-888</p>
                                 <p>asce@vit.ac.in</p>
                             </p>
                         </Collapse>

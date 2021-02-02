@@ -1,5 +1,6 @@
 import React from "react";
-import doc from "../assets/brochure.pdf";
+import mailer1 from "../assets/mailer1.pdf";
+import mailer2 from "../assets/mailer2.pdf";
 const About = () => {
     return (
         <div className='col-12 col-md-11 col-lg-10 mx-auto my-2'>
@@ -23,14 +24,16 @@ const About = () => {
             </p>
             <div className='row justify-content-center'>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
-                    <a href={doc} target='_blank' rel='noreferrer'>
+                    <a href={mailer1} target='_blank' rel='noreferrer'>
                         <div class='box'>Mailer 1</div>
                     </a>
                     <p>Released October 15, 2020</p>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
-                    <div class='box'>Mailer 2</div>
-                    <p>Will be released on January 15, 2021</p>
+                    <a href={mailer2} target='_blank' rel='noreferrer'>
+                        <div class='box'>Mailer 2</div>
+                    </a>
+                    <p>Released on January 15, 2021</p>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
                     <div class='box'>Mailer 3</div>
