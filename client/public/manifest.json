@@ -1,25 +1,57 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "short_name": "ASCE",
+    "name": "ASCE-VIT : a student chapter in Vellore Institute of Technology, Vellore",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "shortcuts": [
+        {
+            "name": "Home",
+            "short_name": "Home",
+            "url": "/",
+            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "About Us",
+            "short_name": "About Us",
+            "url": "/about",
+            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Events",
+            "short_name": "Events",
+            "url": "/events",
+            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Sponsors",
+            "short_name": "Sponsors",
+            "url": "/sponsors",
+            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Contact Us",
+            "short_name": "Contact Us",
+            "url": "/contact",
+            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+        }
+    ]
 }
