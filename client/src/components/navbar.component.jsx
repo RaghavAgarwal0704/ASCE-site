@@ -115,6 +115,9 @@ const NavbarComponent = () => {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </NavItem>
+                        <NavItem className='m-1 my-2 my-lg-1'>
+                            <NavLink to='/contact'>Contact Us</NavLink>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>

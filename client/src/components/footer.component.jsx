@@ -92,6 +92,12 @@ export default function FooterComponent() {
                                     />{" "}
                                     <Link to='/sponsors'>Sponsors</Link>
                                 </li>
+                                <li>
+                                    <FontAwesomeIcon
+                                        icon={faAngleDoubleRight}
+                                    />{" "}
+                                    <Link to='/contact'>Contact Us</Link>
+                                </li>
                             </ul>
                         </Collapse>
                     </div>
