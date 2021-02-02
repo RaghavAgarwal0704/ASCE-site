@@ -1,68 +1,57 @@
 import React from "react";
-const InhouseEvent = () => {
+import { Link } from "react-router-dom";
+import unbreakable from "../assets/unbreakable.jpg";
+import acethespace from "../assets/acethespace.jpg";
+import cadathon from "../assets/cadathon.jpg";
+import paper from "../assets/paper.jpg";
+const InhouseCompetitions = () => {
     return (
-        <div className='col-12 col-md-11 col-lg-10 mx-auto my-2'>
-            <h1>Inhouse Competitions</h1>
+        <div className='col-12 col-md-11 col-lg-10 mx-auto my-2' id='event'>
+            <h1>Events</h1>
             <hr className='line' />
-            <article className='my-4'>
-                <div className='box p-2'>
-                    <h4>1. Unbreakable (quiz)</h4>
+            <p>
+                There are several Inhouse Competitions.
+            </p>
+
+            <div className='row justify-content-center my-2'>
+                <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
+                    <Link to='/event/unbreakable'>
+                        <img src={unbreakable} alt='unbreakable' />
+                        <div class='centered'>
+                            <h4>Unbreakable(quiz)</h4>
+                        </div>
+                    </Link>
                 </div>
-                <p>
-                    A quiz bowl conducted on the topics of structural
-                    engineering, where participants come together and take a
-                    challenge on the challenging questions, testing their
-                    analytical ability and then followed by a lightning buzzer
-                    round that engage participants with rapid fire questions and
-                    answers and the ‘Unbreakable’ one takes it all.
-                </p>
-            </article>
-            <article className='my-4'>
-                <div className='box p-2'>
-                    <h4>2. Ace the Space</h4>
+                <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
+                    <Link to='/event/acethespace'>
+                        <img src={acethespace} alt='acethespace' />
+                        <div class='centered'>
+                            <h4>Ace the Space</h4>
+                        </div>
+                    </Link>
                 </div>
-                <p>
-                    The event ace the space is to propagate usage of space
-                    efficiently and effectively. The event will require the
-                    participants to come up with a design for a Micro Home with
-                    an area of not more than 25m2. The design should be planned
-                    and scheduled using the PERT method only along with which a
-                    rate estimate in detail is to be submitted. Regarding the
-                    Micro Home, the structure must be that of a creative layout
-                    that can accommodate a couple.
-                </p>
-            </article>
-            <article className='my-4'>
-                <div className='box p-2'>
-                    <h4>3. CAD-A-THON</h4>
+                <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
+                    <Link to='/event/cadathon'>
+                        <img src={cadathon} alt='cadathon' />
+                        <div class='centered'>
+                            <h4>CAD-A-THON</h4>
+                        </div>
+                    </Link>
                 </div>
-                <p>
-                    This event is designed in the sole interest of levelling up
-                    the AutoCAD skills of the participants and then they are to
-                    face each other on a battle royal, competing to produce the
-                    perfect plan from the attained aesthetic and technical
-                    knowledge about the software.
-                </p>
-            </article>
-            <div class='comp'>
-                <div className='box p-2'>
-                    <h4>4. Paper Presentation</h4>
+                <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
+                    <Link to='/event/paper'>
+                        <img src={paper} alt='paper' />
+                        <div class='centered'>
+                            <h4>Paper presentation</h4>
+                        </div>
+                    </Link>
                 </div>
-                <p>
-                    Paper presentations are a creative way to assemble
-                    information on any topics and put them forward in the form
-                    of a research paper. This event conducted by ASCE-VIT is a
-                    brilliant opportunity to gain experience in writing a
-                    research paper, the format and the methodology adopted for
-                    the given topic. The participants will have a chance to
-                    unleash their artistic side for the presentation of the
-                    paper, as well as their curious nature is also satisfied
-                    while digging up the content for the same. It truly is a
-                    novel experience of immense use in the present and the
-                    future too.
-                </p>
             </div>
+            <p>
+                To contact conference organizers, please email{" "}
+                <a href='mailto:asce@vit.ac.in'>asce@vit.ac.in</a>
+            </p>
         </div>
     );
 };
-export default InhouseEvent;
+export default InhouseCompetitions;
