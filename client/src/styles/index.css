@@ -44,6 +44,68 @@ article p {
   text-align: justify;
 }
 
+.contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  border-radius: 0.5em;
+  margin: 0.6em;
+  padding: 0.4em;
+  border: 1px solid #c9c9c9;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-card h6 small {
+  float: right;
+}
+
+.contact-card p {
+  font-size: 0.9rem;
+}
+
+.contact-card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  -webkit-box-shadow: 6px 5px 5px #a9a9a9;
+          box-shadow: 6px 5px 5px #a9a9a9;
+}
+
+.contact-card .contact-img {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-card .contact-img img {
+  border-radius: 50%;
+  -webkit-box-shadow: 4px 3px 3px #a9a9a9;
+          box-shadow: 4px 3px 3px #a9a9a9;
+}
+
+.contact-card .content {
+  padding: 0.4em;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-card {
+    margin: 0.4em;
+  }
+  .contact-card .worker-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .footer {
   width: 100%;
   margin-top: auto !important;

@@ -1,0 +1,40 @@
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin: 0.6em;
+    padding: 0.4em;
+    border: 1px solid $light-gray;
+    transition: 0.2s ease-in-out;
+    h6 {
+        small {
+            float: right;
+        }
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    &:hover {
+        transform: scale(1.02);
+        transition: 0.2s ease-in-out;
+        box-shadow: 6px 5px 5px $gray;
+    }
+    .contact-img {
+        width: 70%;
+        display: flex;
+        img {
+            border-radius: 50%;
+            box-shadow: 4px 3px 3px $gray;
+        }
+    }
+    .content {
+        padding: 0.4em;
+    }
+    @media only screen and (max-width: 767px) {
+        margin: 0.4em;
+        .worker-img {
+            display: flex;
+        }
+    }
+}
