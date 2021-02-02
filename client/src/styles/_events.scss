@@ -7,15 +7,17 @@ a img {
     opacity: 0.4;
 }
 
-#event a img:hover,
-#event a img:hover .centered {
-    opacity: 0.15;
-    filter: blur(.1px);
-    -webkit-filter: blur(.1px);
+#event a img {
+    &:hover,
+    &:hover .centered {
+        opacity: 0.15;
+        filter: blur(0.1px);
+        -webkit-filter: blur(0.1px);
+    }
 }
 
 .position-relative {
-    position: relative!important;
+    position: relative !important;
 }
 
 .centered {
@@ -27,15 +29,16 @@ a img {
     text-align: center;
     /* background-color: white; */
     font-weight: bold;
+    h4 {
+        font-weight: 600;
+    }
 }
 
-.centered h4 {
-    font-weight: 600;
-}
-
-.box h3,
-.box h4 {
-    text-align: left!important
+.box {
+    h3,
+    h4 {
+        text-align: left !important;
+    }
 }
 
 article p {

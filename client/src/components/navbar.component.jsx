@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import "../styles/navbar.css";
+// import "../styles/navbar.css";
 import {
     Collapse,
     Navbar,
@@ -114,6 +114,9 @@ const NavbarComponent = () => {
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
+                        </NavItem>
+                        <NavItem className='m-1 my-2 my-lg-1'>
+                            <NavLink to='/contact'>Contact Us</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

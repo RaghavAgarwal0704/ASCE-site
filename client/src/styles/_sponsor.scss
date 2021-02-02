@@ -1,17 +1,16 @@
 .box {
-    border: 2px solid var(--highlight);
+    border: 2px solid $highlight;
     border-radius: 1px;
     border-width: 2px 2px 2px 15px;
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    margin: .25rem;
-}
-
-.box h5,
-.box h3,
-.box h4 {
-    margin-bottom: 0px;
+    margin: 0.25rem;
+    h5,
+    h3,
+    h4 {
+        margin-bottom: 0px;
+    }
 }
 
 .line {

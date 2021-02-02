@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import inhouse from "../assets/inhouse.jpg";
 import national from "../assets/national.jpg";
 import workshop from "../assets/workshop.jpg";
-
-import "../styles/events.css";
 const Event = () => {
     return (
         <div className='col-12 col-md-11 col-lg-10 mx-auto my-2' id='event'>

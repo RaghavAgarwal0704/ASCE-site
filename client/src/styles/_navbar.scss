@@ -1,0 +1,113 @@
+.navbar {
+    background-color: $bg-alt;
+    .dropdown-menu.show {
+        background-color: $bg-alt;
+    }
+    .dropdown-item {
+        &:focus,
+        &:active,
+        &:hover {
+            color: $highlight;
+            text-decoration: none;
+            background-color: $bg-alt;
+        }
+    }
+}
+
+.navbar-brand {
+    color: $highlight !important;
+    font-size: 1.5rem;
+    &:hover {
+        color: $highlight !important;
+    }
+}
+
+.nav-item {
+    padding: 0.5rem;
+    a {
+        color: $text-alt !important;
+        &:hover {
+            color: $highlight !important;
+            text-decoration: none;
+        }
+    }
+    .active {
+        color: $highlight !important;
+    }
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: auto;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu-center {
+        text-align: left;
+        right: auto;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+}
+
+
+/* toggler */
+
+.navbar-toggler {
+    &:focus,
+    &:active {
+        outline: 0;
+    }
+    span {
+        display: block;
+        background-color: $highlight;
+        height: 2px;
+        width: 25px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        position: relative;
+        left: 0;
+        opacity: 1;
+        &:nth-child(1),
+        &:nth-child(3) {
+            -webkit-transition: transform 0.35s ease-in-out;
+            -moz-transition: transform 0.35s ease-in-out;
+            -o-transition: transform 0.35s ease-in-out;
+            transition: transform 0.35s ease-in-out;
+        }
+    }
+    &:not(.collapsed) {
+        span:nth-child(1) {
+            position: absolute;
+            left: 12px;
+            top: 10px;
+            -webkit-transform: rotate(135deg);
+            -moz-transform: rotate(135deg);
+            -o-transform: rotate(135deg);
+            transform: rotate(135deg);
+            opacity: 0.9;
+        }
+        span:nth-child(2) {
+            height: 12px;
+            visibility: hidden;
+            background-color: transparent;
+        }
+        span:nth-child(3) {
+            position: absolute;
+            left: 12px;
+            top: 10px;
+            -webkit-transform: rotate(-135deg);
+            -moz-transform: rotate(-135deg);
+            -o-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+            opacity: 0.9;
+        }
+    }
+}

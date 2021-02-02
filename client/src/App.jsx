@@ -3,6 +3,7 @@ import Home from "./pages/index.page";
 import Event from "./pages/event.page";
 import About from "./pages/about.page";
 import Sponsor from "./pages/sponsor.page";
+import Contact from "./pages/contactUs.page";
 import BecomeSponsor from "./pages/becomeSponsor.page";
 import InhouseEvent from "./pages/inhouseEvent.page";
 import NationalEvent from "./pages/nationalEvent.page";
@@ -19,6 +20,7 @@ function App() {
                     <Route path='/' exact component={Home} />
                     <Route path='/about' component={About} />
                     <Route path='/event' exact component={Event} />
+                    <Route path='/contact' exact component={Contact} />
                     <Route path='/event/national' component={NationalEvent} />
                     <Route path='/event/workshop' component={WorkshopEvent} />
                     <Route path='/event/inhouse' component={InhouseEvent} />
