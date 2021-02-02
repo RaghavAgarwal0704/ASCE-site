@@ -9,13 +9,11 @@ const InhouseCompetitions = () => {
         <div className='col-12 col-md-11 col-lg-10 mx-auto my-2' id='event'>
             <h1>Events</h1>
             <hr className='line' />
-            <p>
-                There are several Inhouse Competitions.
-            </p>
+            <p>There are several Inhouse Competitions.</p>
 
             <div className='row justify-content-center my-2'>
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
-                    <Link to='/event/unbreakable'>
+                    <Link to='/event/inhouse/unbreakable'>
                         <img src={unbreakable} alt='unbreakable' />
                         <div class='centered'>
                             <h4>Unbreakable(quiz)</h4>
@@ -23,7 +21,7 @@ const InhouseCompetitions = () => {
                     </Link>
                 </div>
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
-                    <Link to='/event/acethespace'>
+                    <Link to='/event/inhouse/acethespace'>
                         <img src={acethespace} alt='acethespace' />
                         <div class='centered'>
                             <h4>Ace the Space</h4>
@@ -31,7 +29,7 @@ const InhouseCompetitions = () => {
                     </Link>
                 </div>
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
-                    <Link to='/event/cadathon'>
+                    <Link to='/event/inhouse/cadathon'>
                         <img src={cadathon} alt='cadathon' />
                         <div class='centered'>
                             <h4>CAD-A-THON</h4>
@@ -39,7 +37,7 @@ const InhouseCompetitions = () => {
                     </Link>
                 </div>
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
-                    <Link to='/event/paper'>
+                    <Link to='/event/inhouse/paper'>
                         <img src={paper} alt='paper' />
                         <div class='centered'>
                             <h4>Paper presentation</h4>
