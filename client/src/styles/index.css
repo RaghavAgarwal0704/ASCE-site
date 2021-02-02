@@ -205,7 +205,7 @@ ul {
   color: #b3b3b3 !important;
 }
 
-.list-inline-item:hover {
+.list-inline-item a:hover {
   color: #cfb53b !important;
 }
 
