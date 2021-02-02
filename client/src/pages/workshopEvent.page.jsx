@@ -14,7 +14,7 @@ const workshop = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/workshop/bim'>
                         <img src={bim} alt='bim' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>BIM</h4>
                         </div>
                     </Link>
@@ -22,7 +22,7 @@ const workshop = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/workshop/modular'>
                         <img src={modular} alt='modular' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>Modular and Nano housing</h4>
                         </div>
                     </Link>
@@ -30,7 +30,7 @@ const workshop = () => {
                 <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/workshop/concrete'>
                         <img src={concrete} alt='concrete' />
-                        <div class='centered'>
+                        <div className='centered'>
                             <h4>Self healing concrete</h4>
                         </div>
                     </Link>

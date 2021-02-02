@@ -40,23 +40,25 @@ const Event = () => {
                             <strong>Participants</strong>
                         </h5>
                         <ul>
-                            {events[event].participants.map((x) => (
-                                <li>{x}</li>
+                            {events[event].participants.map((x, i) => (
+                                <li key={i}>{x}</li>
                             ))}
                         </ul>
                     </>
                 )}
             </div>
-            <div className='col-12 px-0  mt-md-3'>
-                <h5>
-                    <strong>Description</strong>
-                </h5>
-                <ul>
-                    {events[event].description.map((desc) => (
-                        <li>{desc}</li>
-                    ))}
-                </ul>
-            </div>
+            {events[event].description && (
+                <div className='col-12 px-0  mt-md-3'>
+                    <h5>
+                        <strong>Description</strong>
+                    </h5>
+                    <ul>
+                        {events[event].description.map((desc, i) => (
+                            <li key={i}>{desc}</li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </div>
     );
 };

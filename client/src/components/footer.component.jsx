@@ -120,14 +120,10 @@ export default function FooterComponent() {
                         <Collapse
                             isOpen={isOpenContact}
                             navbar
-                            className='justify-content-lg-center'>
-                            <p>
-                                Address : Vellore Institute of Technology,
-                                Vellore
-                            </p>
-                            <p style={{ textAlign: "end" }}>
-                                <p>asce@vit.ac.in</p>
-                            </p>
+                            className='text-align-center'>
+                            Vellore Institute of Technology, Vellore
+                            <br />
+                            asce@vit.ac.in
                         </Collapse>
                     </div>
                 </div>
