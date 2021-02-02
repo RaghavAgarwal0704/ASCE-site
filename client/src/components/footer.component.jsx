@@ -159,6 +159,22 @@ export default function FooterComponent() {
                         <small className='text-white-50'>
                             © ASCE 2020. All Rights Reserved.
                         </small>
+                        <small>
+                            Website created and maintained by{" "}
+                            <a
+                                href='https://github.com/RaghavAgarwal0704'
+                                target='_blank'
+                                rel='noreferrer'>
+                                Raghav
+                            </a>{" "}
+                            &{" "}
+                            <a
+                                href='https://github.com/SparshJain2000/'
+                                target='_blank'
+                                rel='noreferrer'>
+                                Sparsh
+                            </a>
+                        </small>
                     </div>
                 </div>
             </div>

@@ -48,8 +48,23 @@
             text-align: end;
         }
     }
-    .copyright p {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    .copyright {
+        p {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        a {
+            color: $highlight;
+            text-decoration: underline;
+            &:hover {
+                color: $secondary !important;
+            }
+        }
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 990px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 
