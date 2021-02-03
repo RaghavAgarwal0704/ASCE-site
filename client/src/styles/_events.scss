@@ -66,3 +66,13 @@ article p {
 ul {
     padding-inline-start: 20px;
 }
+.btn.btn-bg {
+    border-color: $bg-alt !important;
+    background-color: $bg-alt !important;
+    color: $secondary !important;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: rgba($bg-alt, 0.8) !important;
+    }
+}
