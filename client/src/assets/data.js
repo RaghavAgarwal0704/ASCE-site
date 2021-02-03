@@ -1,5 +1,7 @@
 import Brijesh from "../assets/Brijesh.jpg";
 import utkarsh from "../assets/utkarsh.jpg";
+import aditya from "../assets/aditya.jpg";
+import rahul from "../assets/rahul.jpg";
 import acethespace from "./acethespace.jpg";
 import bim from "./bim.jpg";
 import cadathon from "./cadathon.jpg";
@@ -17,7 +19,21 @@ const members = [
         email: "brijeshnair.an@vit.ac.in",
         img: Brijesh,
         phone: "+91-9944642418",
-        role: "Faculty coordinator",
+        role: "Faculty Coordinator",
+    },
+    {
+        name: "Aditya Bahadur Pal",
+        email: "adityabahadur.pal2018@vitstudent.ac.in",
+        img: aditya,
+        phone: "+91-8429902174",
+        role: "Chairperson",
+    },
+    {
+        name: "Rahul Gupta",
+        email: "rahul.gupta2018@vitstudent.ac.in",
+        img: rahul,
+        phone: "+91-9587023106",
+        role: "Director Logistics",
     },
     {
         name: "Utkarsh Jaiswal",
@@ -25,21 +41,7 @@ const members = [
         img: utkarsh,
         phone: "+91-8840274121",
         role: "Director Finance",
-    },
-    {
-        name: "Dr. A. N. Brijesh Nair",
-        email: "brijeshnair.an@vit.ac.in",
-        img: Brijesh,
-        phone: "+91-9944642418",
-        role: "Faculty coordinator",
-    },
-    {
-        name: "Dr. A. N. Brijesh Nair",
-        email: "brijeshnair.an@vit.ac.in",
-        img: Brijesh,
-        phone: "+91-9944642418",
-        role: "Faculty coordinator",
-    },
+    }
 ];
 const events = {
     acethespace: {
