@@ -157,7 +157,23 @@ export default function FooterComponent() {
                 <div className='row mt-1'>
                     <div className='col copyright'>
                         <small className='text-white-50'>
-                            © ASCE 2020. All Rights Reserved.
+                            © ASCE 2021. All Rights Reserved.
+                        </small>
+                        <small>
+                            Website created and maintained by{" "}
+                            <a
+                                href='https://github.com/RaghavAgarwal0704'
+                                target='_blank'
+                                rel='noreferrer'>
+                                Raghav
+                            </a>{" "}
+                            &{" "}
+                            <a
+                                href='https://github.com/SparshJain2000/'
+                                target='_blank'
+                                rel='noreferrer'>
+                                Sparsh
+                            </a>
                         </small>
                     </div>
                 </div>
