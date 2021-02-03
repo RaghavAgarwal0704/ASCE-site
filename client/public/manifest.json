@@ -1,6 +1,6 @@
 {
     "short_name": "ASCE",
-    "name": "ASCE-VIT : a student chapter in Vellore Institute of Technology, Vellore",
+    "name": "ASCE-VIT : a student chapter in VIT, Vellore",
     "icons": [
         {
             "src": "favicon.ico",
@@ -10,7 +10,8 @@
         {
             "src": "logo192.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "any maskable"
         },
         {
             "src": "logo512.png",
@@ -27,31 +28,31 @@
             "name": "Home",
             "short_name": "Home",
             "url": "/",
-            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+            "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
         },
         {
             "name": "About Us",
             "short_name": "About Us",
             "url": "/about",
-            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+            "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
         },
         {
             "name": "Events",
             "short_name": "Events",
             "url": "/events",
-            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+            "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
         },
         {
             "name": "Sponsors",
             "short_name": "Sponsors",
             "url": "/sponsors",
-            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+            "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
         },
         {
             "name": "Contact Us",
             "short_name": "Contact Us",
             "url": "/contact",
-            "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+            "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
         }
     ]
 }
