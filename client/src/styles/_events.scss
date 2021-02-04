@@ -63,8 +63,14 @@ article p {
         width: 100%;
     }
 }
+
 ul {
     padding-inline-start: 20px;
+}
+.event-description {
+    li {
+        word-break: break-word;
+    }
 }
 .btn.btn-bg {
     border-color: $bg-alt !important;

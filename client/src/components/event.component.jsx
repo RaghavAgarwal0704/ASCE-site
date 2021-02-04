@@ -49,7 +49,7 @@ const Event = () => {
                 )}
             </div>
             {events[event].description && (
-                <div className='col-12 px-0  mt-md-3'>
+                <div className='col-12 px-0  mt-md-3 event-description'>
                     <h5>
                         <strong>Description</strong>
                     </h5>
