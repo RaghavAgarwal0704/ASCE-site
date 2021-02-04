@@ -2,13 +2,13 @@ import React from "react";
 import { members } from "../assets/data";
 const Contact = () => {
     return (
-        <div className='col-12 col-md-11 col-lg-10 mx-auto my-2 row'>
+        <div className='col-12 col-md-11 col-lg-10 mx-auto my-2 row justify-content-center'>
             <div className='col-12'>
                 <h1>Contact Us</h1>
                 <hr className='line' />
             </div>
             {members.map((user) => (
-                <div className='col-12 col-md-3 px-0'>
+                <div className='col-12 col-md-3  px-0'>
                     <div className='contact-card '>
                         <div className='contact-img mx-auto'>
                             <img

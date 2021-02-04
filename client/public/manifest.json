@@ -39,7 +39,7 @@
         {
             "name": "Events",
             "short_name": "Events",
-            "url": "/events",
+            "url": "/event",
             "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
         },
         {

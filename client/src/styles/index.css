@@ -77,6 +77,10 @@ ul {
           padding-inline-start: 20px;
 }
 
+.event-description li {
+  word-break: break-word;
+}
+
 .btn.btn-bg {
   border-color: #2c2c2c !important;
   background-color: #2c2c2c !important;
