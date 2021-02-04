@@ -2,6 +2,7 @@ import Brijesh from "../assets/Brijesh.jpg";
 import utkarsh from "../assets/utkarsh.jpg";
 import aditya from "../assets/aditya.jpg";
 import rahul from "../assets/rahul.jpg";
+import kartikey from "../assets/kartikey.jpg";
 import acethespace from "./acethespace.jpg";
 import bim from "./bim.jpg";
 import cadathon from "./cadathon.jpg";
@@ -29,6 +30,13 @@ const members = [
         role: "Chairperson",
     },
     {
+        name: "Kartikey Senger",
+        email: "kartikey.senger2018@vitstudent.ac.in",
+        img: kartikey,
+        phone: "+91-9870852195",
+        role: "Director Events",
+    },
+    {
         name: "Rahul Gupta",
         email: "rahul.gupta2018@vitstudent.ac.in",
         img: rahul,
@@ -41,7 +49,7 @@ const members = [
         img: utkarsh,
         phone: "+91-8840274121",
         role: "Director Finance",
-    }
+    }    
 ];
 const events = {
     acethespace: {
