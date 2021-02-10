@@ -3,14 +3,12 @@ import { Link } from "react-router-dom";
 const Index = () => {
     return (
         <div className='col-12 col-md-11 col-lg-10 mx-auto my-2'>
-            <h1>ASCE 2021 Southeast Student Conference</h1>
+            <h1>ASCE All India Student Conference</h1>
             <hr className='line' />
             <div>
                 <p>
-                    The ASCE 2021 Southeast Student Conference will be March
-                    25-27, 2021, hosted by Vanderbilt University and Lipscomb
-                    University. Put on your cowboy boots and travel back to the
-                    Wild West and join us in Engineering for a New Frontier.
+                    The ASCE All India Student Conference will be held on March
+                    25-27, 2021, hosted by Vellore Institute of Technology, Vellore. 
                 </p>
                 <p className='mt-3'>
                     If you have any questions, email conference organizers at{" "}
@@ -31,7 +29,7 @@ const Index = () => {
                         </div>
                         <p>
                             Visit our <Link to='/about'>about page</Link> to
-                            learn more about the ASCE 2021 Southeast Student
+                            learn more about the ASCE All India Student
                             Conference
                         </p>
                     </div>
@@ -41,8 +39,7 @@ const Index = () => {
                         </div>
                         <p>
                             Visit our <Link to='/sponsors'>sponsors page</Link>{" "}
-                            to learn more about supporting the ASCE 2021
-                            Southeast Student Conference!
+                            to learn more about supporting the ASCE All India Student Conference!
                         </p>
                     </div>
                 </div>
