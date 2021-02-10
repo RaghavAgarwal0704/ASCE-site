@@ -8,7 +8,7 @@ const Index = () => {
             <div>
                 <p>
                     The ASCE All India Student Conference will be held on March
-                    25-27, 2021, hosted by Vellore Institute of Technology, Vellore. 
+                    19-21, 2021, hosted by Vellore Institute of Technology, Vellore. 
                 </p>
                 <p className='mt-3'>
                     If you have any questions, email conference organizers at{" "}
