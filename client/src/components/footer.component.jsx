@@ -96,6 +96,12 @@ export default function FooterComponent() {
                                     <FontAwesomeIcon
                                         icon={faAngleDoubleRight}
                                     />{" "}
+                                    <Link to='/judges'>Judges</Link>
+                                </li>
+                                <li>
+                                    <FontAwesomeIcon
+                                        icon={faAngleDoubleRight}
+                                    />{" "}
                                     <Link to='/contact'>Contact Us</Link>
                                 </li>
                             </ul>

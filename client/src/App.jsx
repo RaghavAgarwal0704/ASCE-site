@@ -3,6 +3,7 @@ import Home from "./pages/index.page";
 import EventPage from "./pages/event.page";
 import About from "./pages/about.page";
 import Sponsor from "./pages/sponsor.page";
+import Judge from "./pages/judge.page";
 import Contact from "./pages/contactUs.page";
 import BecomeSponsor from "./pages/becomeSponsor.page";
 import InhouseEvent from "./pages/inhouseEvent.page";
@@ -38,6 +39,7 @@ function App() {
                         component={InhouseEvent}
                     />
                     <Route path='/event/:type/:event' exact component={Event} />
+                    <Route path='/judges' exact component={Judge} />
                     <Route path='/sponsors' exact component={Sponsor} />
                     <Route path='/sponsors/become' component={BecomeSponsor} />
                 </Switch>
