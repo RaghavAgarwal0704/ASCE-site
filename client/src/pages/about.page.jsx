@@ -4,11 +4,11 @@ import mailer2 from "../assets/mailer2.pdf";
 const About = () => {
     return (
         <div className='col-12 col-md-11 col-lg-10 mx-auto my-2'>
-            <h1>About the ASCE Southeast Conference</h1>
+            <h1>About the ASCE All India Student Conference</h1>
             <hr className='line' />
             <p>
-                Welcome to the ASCE 2021 Southeast Student Conference in
-                Nashville, TN. The conference hosts the yearly business meeting,
+                Welcome to the All India Student Conference in
+                Vellore Institute of Technology, Vellore. The conference hosts the yearly business meeting,
                 civil engineering related competitions, and an awards banquet.
                 To learn more about ASCE Student Conferences, visit the{" "}
                 <a
@@ -20,24 +20,24 @@ const About = () => {
             </p>
             <p>
                 For up to date details, please read Mailer 1, released on
-                October 15, 2020.
+                November 15, 2020.
             </p>
             <div className='row justify-content-center'>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
                     <a href={mailer1} target='_blank' rel='noreferrer'>
                         <div class='box'>Mailer 1</div>
                     </a>
-                    <p>Released October 15, 2020</p>
+                    <p>Released November 15, 2020</p>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
                     <a href={mailer2} target='_blank' rel='noreferrer'>
                         <div class='box'>Mailer 2</div>
                     </a>
-                    <p>Released on January 15, 2021</p>
+                    <p>Released on December 30, 2020</p>
                 </div>
                 <div className='col-12 col-md-6 col-lg-4 px-0'>
                     <div class='box'>Mailer 3</div>
-                    <p>Will be released on March 4th, 2021</p>
+                    <p>Released on January 30, 2021</p>
                 </div>
             </div>
             <p>
