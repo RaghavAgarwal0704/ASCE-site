@@ -61,11 +61,12 @@ const members = [
     },
     {
         name: "Shubham Choudhary",
-        email: "null",
+        email: "shubham.choudhary2018@vitstudent.ac.in",
         img: shubham,
         phone: "+91-6265104595",
         role: "Design Head",
-    }
+    },
+    
 ];
 const events = {
     acethespace: {
