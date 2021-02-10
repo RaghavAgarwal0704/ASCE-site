@@ -1,6 +1,8 @@
 import Brijesh from "../assets/Brijesh.jpg";
 import utkarsh from "../assets/utkarsh.jpg";
 import aditya from "../assets/aditya.jpg";
+import adityapratap from "../assets/adityapratap.jpg";
+import shubham from "../assets/shubham.jpg";
 import rahul from "../assets/rahul.jpg";
 import kartikey from "../assets/kartikey.jpg";
 import acethespace from "./acethespace.jpg";
@@ -30,6 +32,13 @@ const members = [
         role: "Chairperson",
     },
     {
+        name: "Aditya Pratap Singh",
+        email: "adityapratap.singh2018@vitstudent.ac.in",
+        img: adityapratap,
+        phone: "+91-8090888061",
+        role: "Vice Chairperson",
+    },
+    {
         name: "Kartikey Senger",
         email: "kartikey.senger2018@vitstudent.ac.in",
         img: kartikey,
@@ -49,7 +58,14 @@ const members = [
         img: utkarsh,
         phone: "+91-8840274121",
         role: "Director Finance",
-    }    
+    },
+    {
+        name: "Shubham Choudhary",
+        email: "null",
+        img: shubham,
+        phone: "+91-6265104595",
+        role: "Design Head",
+    }
 ];
 const events = {
     acethespace: {
