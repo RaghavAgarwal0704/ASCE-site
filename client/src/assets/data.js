@@ -67,13 +67,44 @@ const members = [
         phone: "+91-6265104595",
         role: "Design Head",
     },
-     {
+    {
         name: "Krithika Vyas",
         email: "",
         img: krithika,
         phone: "+91-7470455267",
         role: "Public Relations Officer",
-    }
+    },
+];
+const judges = [
+    // TODO : Add judges
+    {
+        name: "Dr. A. N. Brijesh Nair",
+        email: "brijeshnair.an@vit.ac.in",
+        img: Brijesh,
+        phone: "+91-9944642418",
+        role: "Faculty Coordinator",
+    },
+    {
+        name: "Dr. A. N. Brijesh Nair",
+        email: "brijeshnair.an@vit.ac.in",
+        img: Brijesh,
+        phone: "+91-9944642418",
+        role: "Faculty Coordinator",
+    },
+    {
+        name: "Dr. A. N. Brijesh Nair",
+        email: "brijeshnair.an@vit.ac.in",
+        img: Brijesh,
+        phone: "+91-9944642418",
+        role: "Faculty Coordinator",
+    },
+    {
+        name: "Dr. A. N. Brijesh Nair",
+        email: "brijeshnair.an@vit.ac.in",
+        img: Brijesh,
+        phone: "+91-9944642418",
+        role: "Faculty Coordinator",
+    },
 ];
 const events = {
     acethespace: {
@@ -247,4 +278,4 @@ const events = {
         ],
     },
 };
-export { members, events };
+export { members, events, judges };
