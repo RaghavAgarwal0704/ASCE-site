@@ -1,10 +1,11 @@
-.contact-card {
+.judge-card {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     cursor: pointer;
-    border-radius: 0.5em;
     height: 100%;
-    // margin: 0.6em;
+    width: 100%;
+    border-radius: 0.5em;
+    // margin: 0.6em !important;
     padding: 0.4em;
     border: 1px solid $light-gray;
     transition: 0.2s ease-in-out;
@@ -21,22 +22,28 @@
         transition: 0.2s ease-in-out;
         box-shadow: 6px 5px 5px $gray;
     }
-    .contact-img {
-        width: 70%;
+    .judge-img {
         display: flex;
         img {
             border-radius: 50%;
             box-shadow: 4px 3px 3px $gray;
         }
     }
-    .content {
+    .judge-content {
         padding: 0.4em;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         p {
             margin-bottom: 0;
         }
     }
+
     @media only screen and (max-width: 767px) {
         margin: 0.4em;
+
         .worker-img {
             display: flex;
         }
