@@ -9,7 +9,7 @@ const Event = () => {
             <h1>Events</h1>
             <hr className='line' />
             <p>
-                The ASCE 2021 Southeast Student Conference will consist of
+                The ASCE All India Student Conference will consist of
                 National Competitions, Inhouse Competitions and Workshops.
             </p>
 
