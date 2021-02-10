@@ -4,6 +4,7 @@ import aditya from "../assets/aditya.jpg";
 import adityapratap from "../assets/adityapratap.jpg";
 import shubham from "../assets/shubham.jpg";
 import krithika from "../assets/krithika.jpeg";
+import thanushree from "../assets/thanushree.jpeg";
 import rahul from "../assets/rahul.jpg";
 import kartikey from "../assets/kartikey.jpg";
 import acethespace from "./acethespace.jpg";
@@ -69,11 +70,18 @@ const members = [
     },
     {
         name: "Krithika Vyas",
-        email: "",
+        email: "krithika.vyas2018@vitstudent.ac.in",
         img: krithika,
         phone: "+91-7470455267",
         role: "Public Relations Officer",
     },
+    {
+        name: "Thanushree Anil Kumar",
+        email: "thanushreeanil.kumar2018@vitstudent.ac.in",
+        img: thanushree,
+        phone: "+91-8547905839",
+        role: "Director Marketing and Documentation",
+    }
 ];
 const judges = [
     // TODO : Add judges
