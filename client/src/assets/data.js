@@ -90,33 +90,29 @@ const members = [
 const judges = [
     // TODO : Add judges
     {
-        name: "Dr. A. N. Brijesh Nair",
-        email: "brijeshnair.an@vit.ac.in",
-        img: Brijesh,
-        phone: "+91-9944642418",
-        role: "Faculty Coordinator",
+        name: "Dr. Choong Kok Keong",
+        img: chong,
+        role: "He will be gracing ASCE India Student conference as the Head judge for ASCE Sustainable Solution Competition.",
+        about: "Dr. Choong Kok Keong is the Professor of Structural Engineering and Deputy Dean of Research, Innovation and Industry - Community Engagement in Universiti Sains Malaysia. He is a graduate in B.Eng from Universiti Teknologi Malaysia, M.Sc from Gifu University and he completed his PhD from Tokyo. His area of expertise is structures."
     },
     {
-        name: "Dr. A. N. Brijesh Nair",
-        email: "brijeshnair.an@vit.ac.in",
-        img: Brijesh,
-        phone: "+91-9944642418",
-        role: "Faculty Coordinator",
+        name: "Dr. Balaji Ramakrishnan",
+        img: balaji,
+        role: "He will be gracing ASCE India Student conference as the Head judge for ASCE Concrete Canoe Competition.",
+        about: "Dr. Balaji Ramakrishnan is an Associate Professor in the Department of Civil Engineering of IIT Bombay. He has Received Masters (2003) and Ph.D (2007) degrees in Ocean Engineering from Indian Institute of Technology (IIT) Madras, Bachelor degree in Civil Engineering from Madurai Kamarajar University, India. His primary research interest is in the field of coastal engineering with special emphasis to numerical modelling of coastal process, wave transformation, harbour tranquillity, tidal hydrodynamics, wave-structure interaction, sediment transport, design of coastal structures and in-situ measurement of ocean parameters; waves, tides, currents, coastal-water-quality and sediment transport."
     },
     {
-        name: "Dr. A. N. Brijesh Nair",
-        email: "brijeshnair.an@vit.ac.in",
-        img: Brijesh,
-        phone: "+91-9944642418",
-        role: "Faculty Coordinator",
+        name: "Dr. Shenthil Kumar R",
+        img: senthil,
+        role: "He will be gracing ASCE India Student conference as the Co-judge for ASCE Concrete Canoe Competition.",
+        about: "Dr. Shenthil Kumar R is an Assistant professor in National Institute of Technology Tiruchirappali(NITT). He has done Ph.D. in Structural Engineering, Indian Institute of Technology Madras, Chennai, 2012-2017. M.E. in Structural Engineering, College of Engineering Guindy, Anna University, Chennai 2009-2011. B.E. in Civil Engineering, Government College of Engineering and Technology, Karaikudi 2005-2009. His Research interest in Earthquake Resistant Design of Structures, Steel – Concrete Composite Structures, Development of New Alternate Materials, Fire Engineering, Stability of Steel Structures."
     },
     {
-        name: "Dr. A. N. Brijesh Nair",
-        email: "brijeshnair.an@vit.ac.in",
-        img: Brijesh,
-        phone: "+91-9944642418",
-        role: "Faculty Coordinator",
-    },
+        name: "Dr. M. V. N. Sivakumar",
+        img: sivakumar,
+        role: "He will be gracing ASCE India Student conference as the Head judge for ASCE UESI Surveying Competition.",
+        about: "Dr. M. V. N. Sivakumar is the Assistant Professor in the department of Civil Engineering of National Institute of Technology, Warangal. He has a Ph.D in structural Engineering from Indian Institute of Technology, Madras. He has been in the teaching field since 2000 and has received awards from the government, such as the Scholarship for postgraduate studies in engineering (GATE), Ministry of Human Resources development, Government of India and the Scholarship for pursuing PhD programme in Engineering, Ministry of Human Resources development, Government of India."
+    }
 ];
 const events = {
     acethespace: {
