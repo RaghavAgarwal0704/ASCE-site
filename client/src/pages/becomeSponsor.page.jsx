@@ -6,31 +6,31 @@ const BecomeSponsor = () => {
             <hr className='line' />
 
             <div>
-                <h3>GOLD: Corporate Gifts $3000+</h3>
+                <h3>GOLD: Rs. 25,000 and above.</h3>
                 <hr className='bg-highlight' />
-                <p>
+<!--                 <p>
                     Company logo with GOLD level acknowledgement on t-shirt,
                     website and any other conference materials. The company will
                     also be recognized at the online awards ceremony and have an
                     opportunity to speak with students via an online sign up.
-                </p>
+                </p> -->
             </div>
             <div>
-                <h3>SILVER: Corporate Gifts $1,000 - $2,999</h3>
+                <h3>SILVER: Between Rs. 10,000 and 25,000.</h3>
                 <hr className='bg-highlight' />
-                <p>
+<!--                 <p>
                     Company logo with SILVER level acknowledgement on t-shirt,
                     website and any other conference materials. The company will
                     also be recognized at the online awards ceremony.
-                </p>
+                </p> -->
             </div>
             <div>
-                <h3>COPPER: Corporate Gifts under $1,000</h3>
+                <h3>COPPER: Rs. 10,000 and below.</h3>
                 <hr className='bg-highlight' />
-                <p>
+<!--                 <p>
                     Company logo with COPPER level acknowledgement on t-shirt,
                     website and any other conference materials.
-                </p>
+                </p> -->
             </div>
             <div className='box'>
                 <h5>Become a Sponsor</h5>
