@@ -67,7 +67,11 @@
         }
     }
 }
-
+.text-align-md-left {
+    @media (min-width: 990px) {
+        text-align: left !important;
+    }
+}
 .list-inline-item {
     a {
         font-size: 1.9rem;

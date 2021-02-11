@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/index.page";
 import EventPage from "./pages/event.page";
 import About from "./pages/about.page";
@@ -15,7 +15,7 @@ import Footer from "./components/footer.component";
 import Event from "./components/event.component";
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Navbar />
             <main>
                 <Switch>
@@ -45,7 +45,7 @@ function App() {
                 </Switch>
             </main>
             <Footer />
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

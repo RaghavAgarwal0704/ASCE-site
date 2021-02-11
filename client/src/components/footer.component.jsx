@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import "../styles/footer.css";
+import video from "../assets/Video.mp4";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -33,7 +33,7 @@ export default function FooterComponent() {
         <footer className=' py-3 footer'>
             <div className='mx-2 mx-sm-2  mx-md-5'>
                 <div className='row justify-content-center'>
-                    <div className='col-lg-5 col-12 about-company'>
+                    <div className='col-lg-4 col-12 about-company'>
                         <h3>ASCE</h3>
                         <p className='pr-0 pr-lg-5'>
                             ASCE-VIT is a student chapter in Vellore Institute
@@ -42,8 +42,43 @@ export default function FooterComponent() {
                             engineering. It is a group of 75 dedicated students
                             who are relentless in their endeavours.
                         </p>
+                        <div>
+                            <h5 className='mt-lg-0 mt-sm-3 text-align-center text-align-md-left'>
+                                Contact Us
+                                <NavbarToggler
+                                    onClick={toggleContact}
+                                    className={`d-inline d-lg-none position-relative ${
+                                        !isOpenContact ? "collapsed" : ""
+                                    }`}>
+                                    <FontAwesomeIcon
+                                        icon={
+                                            !isOpenContact
+                                                ? faAngleDown
+                                                : faAngleUp
+                                        }
+                                    />
+                                </NavbarToggler>
+                            </h5>
+                            <Collapse
+                                isOpen={isOpenContact}
+                                navbar
+                                className='text-align-center text-align-md-left'>
+                                Vellore Institute of Technology, Vellore
+                                <br />
+                                asce@vit.ac.in
+                            </Collapse>
+                        </div>
                     </div>
-                    <div className='col-lg-3 col-12 links text-align-center'>
+                    <div className='d-flex flex-column justify-content-center col-lg-4'>
+                        <video
+                            autoPlay
+                            muted
+                            controls
+                            className='img-fluid my-auto'>
+                            <source src={video} type='video/mp4' />
+                        </video>
+                    </div>
+                    <div className='col-lg-4 col-12 links text-align-center'>
                         <h5 className='mt-lg-0 mt-sm-3 '>
                             Links
                             <NavbarToggler
@@ -108,30 +143,7 @@ export default function FooterComponent() {
                         </Collapse>
                     </div>
 
-                    <div className='col-lg-4 col-12 location text-align-center'>
-                        <h5 className='mt-lg-0 mt-sm-3 '>
-                            Contact Us
-                            <NavbarToggler
-                                onClick={toggleContact}
-                                className={`d-inline d-lg-none position-relative ${
-                                    !isOpenContact ? "collapsed" : ""
-                                }`}>
-                                <FontAwesomeIcon
-                                    icon={
-                                        !isOpenContact ? faAngleDown : faAngleUp
-                                    }
-                                />
-                            </NavbarToggler>
-                        </h5>
-                        <Collapse
-                            isOpen={isOpenContact}
-                            navbar
-                            className='text-align-center'>
-                            Vellore Institute of Technology, Vellore
-                            <br />
-                            asce@vit.ac.in
-                        </Collapse>
-                    </div>
+                    {/* <div className='col-lg-4 col-12 location text-align-center'></div> */}
                 </div>
                 <div className='row'>
                     <div className='col-xs-12 col-sm-12 col-md-12 mt-2'>
