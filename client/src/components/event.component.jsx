@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { events } from "../assets/data";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Event = () => {
     const { event } = useParams();
 
@@ -60,9 +60,9 @@ const Event = () => {
                     </ul>
                 </div>
             )}
-            <Link to='/' className='btn btn-bg'>
+            <a href='https://google.com' className='btn btn-bg'>
                 Register Here
-            </Link>
+            </a>
         </div>
     );
 };
