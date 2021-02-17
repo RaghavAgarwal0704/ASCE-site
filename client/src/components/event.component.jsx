@@ -60,7 +60,7 @@ const Event = () => {
                     </ul>
                 </div>
             )}
-            <a href='https://google.com' className='btn btn-bg'>
+            <a href='https://events.vit.ac.in/' className='btn btn-bg'>
                 Register Here
             </a>
         </div>
