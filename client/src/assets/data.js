@@ -163,6 +163,7 @@ const events = {
 
     cadathon: {
         img: cadathon,
+        prize:"Rs. 3000",
         name: "CAD-A-THON",
         objective:
             "The task aims to test the technical drawing of the participants as well as AutoCAD software skills in a limited time constraint.",
@@ -279,6 +280,7 @@ const events = {
     },
     unbreakable: {
         img: unbreakable,
+        prize:"Rs. 3000",
         name: "UNBREAKABLE QUIZ",
         prerequisites:
             "The topics will primarily be focused on structural engineering but could also come from any aspects of civil engineering.",
