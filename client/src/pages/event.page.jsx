@@ -9,8 +9,8 @@ const Event = () => {
             <h1>Events</h1>
             <hr className='line' />
             <p>
-                The ASCE All India Student Conference will consist of
-                National Competitions, Inhouse Competitions and Workshops.
+                The ASCE All India Student Conference will consist of National
+                Competitions, Inhouse Competitions and Workshops.
             </p>
 
             <div className='row justify-content-center my-2'>
@@ -30,14 +30,14 @@ const Event = () => {
                         </div>
                     </Link>
                 </div>
-                <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
+                {/* <div className='col-12 col-sm-6 col-md-4 position-relative p-1'>
                     <Link to='/event/workshop'>
                         <img src={workshop} alt='workshop' />
                         <div class='centered'>
                             <h4>Workshops</h4>
                         </div>
                     </Link>
-                </div>
+                </div> */}
             </div>
             <p>
                 To contact conference organizers, please email{" "}

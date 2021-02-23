@@ -8,7 +8,8 @@ const Index = () => {
             <div>
                 <p>
                     The ASCE All India Student Conference will be held on March
-                    19-21, 2021, hosted by Vellore Institute of Technology, Vellore. 
+                    19-21, 2021, hosted by Vellore Institute of Technology,
+                    Vellore.
                 </p>
                 <p className='mt-3'>
                     If you have any questions, email conference organizers at{" "}
@@ -20,9 +21,12 @@ const Index = () => {
                 <p>
                     Visit our <Link to='/event'>events</Link> page to view this
                     year's competetions!
-                </p><br>
+                </p>
+                <br />
                 <p>
-                    Note. The colleges without ASCE chapter will indeed be able to participate in all the competition. But will be eligible to win only In-house competition not ASCE competition.
+                    Note. The colleges without ASCE chapter will indeed be able
+                    to participate in all the competition. But will be eligible
+                    to win only In-house competition not ASCE competition.
                 </p>
 
                 <div className='row mt-5'>
@@ -42,7 +46,8 @@ const Index = () => {
                         </div>
                         <p>
                             Visit our <Link to='/sponsors'>sponsors page</Link>{" "}
-                            to learn more about supporting the ASCE All India Student Conference!
+                            to learn more about supporting the ASCE All India
+                            Student Conference!
                         </p>
                     </div>
                 </div>
