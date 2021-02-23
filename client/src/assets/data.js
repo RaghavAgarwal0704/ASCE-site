@@ -92,7 +92,7 @@ const members = [
         email: "avanisushant.khedekar2018@vitstudent.ac.in",
         img: avani,
         phone: "+91-7558682393",
-        role: "",
+        role: "Technical Head",
     }
 ];
 const judges = [
