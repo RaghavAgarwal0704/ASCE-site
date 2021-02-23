@@ -1,6 +1,7 @@
 import Brijesh from "../assets/Brijesh.jpg";
 import utkarsh from "../assets/utkarsh.jpg";
 import sivakumar from "../assets/sivakumar.jpg";
+import avani from "../assets/avani.jpg";
 import senthil from "../assets/senthil.jpg";
 import balaji from "../assets/balaji.jpg";
 import chong from "../assets/chong.jpg";
@@ -85,6 +86,13 @@ const members = [
         img: thanushree,
         phone: "+91-8547905839",
         role: "Director Marketing and Documentation",
+    },
+    {
+        name: "Avani Khedekar",
+        email: "avanisushant.khedekar2018@vitstudent.ac.in",
+        img: avani,
+        phone: "+91-7558682393",
+        role: "",
     }
 ];
 const judges = [
