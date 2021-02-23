@@ -19,6 +19,13 @@ const Event = () => {
                 />
             </div>
             <div className='event-content pl-md-3'>
+                {events[event].prize && (
+                    <>
+                        <h5>
+                            <strong>Prize : {events[event].prize}</strong>
+                        </h5>
+                    </>
+                )}
                 {events[event].objective && (
                     <>
                         <h5>
