@@ -20,6 +20,9 @@ const Index = () => {
                 <p>
                     Visit our <Link to='/event'>events</Link> page to view this
                     year's competetions!
+                </p><br>
+                <p>
+                    Note. The colleges without ASCE chapter will indeed be able to participate in all the competition. But will be eligible to win only In-house competition not ASCE competition.
                 </p>
 
                 <div className='row mt-5'>
