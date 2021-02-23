@@ -82,11 +82,11 @@ const NavbarComponent = () => {
                                             Inhouse Events
                                         </NavLink>
                                     </DropdownItem>
-                                    <DropdownItem>
+                                    {/* <DropdownItem>
                                         <NavLink to='/event/workshop'>
                                             Workshops
                                         </NavLink>
-                                    </DropdownItem>
+                                    </DropdownItem> */}
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </NavItem>

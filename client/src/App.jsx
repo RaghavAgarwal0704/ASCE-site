@@ -28,11 +28,11 @@ function App() {
                         exact
                         component={NationalEvent}
                     />
-                    <Route
+                    {/* <Route
                         path='/event/workshop'
                         exact
                         component={WorkshopEvent}
-                    />
+                    /> */}
                     <Route
                         path='/event/inhouse'
                         exact
