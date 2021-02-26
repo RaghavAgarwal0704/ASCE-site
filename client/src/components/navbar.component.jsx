@@ -12,7 +12,7 @@ import {
     DropdownItem,
     DropdownMenu,
 } from "reactstrap";
-
+import logo from "../assets/logo.png";
 const NavbarComponent = () => {
     const [error] = useState("");
     const [showError, setShowError] = useState(false);
@@ -35,7 +35,12 @@ const NavbarComponent = () => {
                     <Link
                         to='/'
                         className='navbar-brand Raleway text-align-center'>
-                        ASCE
+                        <img
+                            src={logo}
+                            alt='logo'
+                            className='img-fluid'
+                            style={{ maxWidth: "50px", opacity: "1" }}
+                        />
                     </Link>
                 </div>
                 <NavbarToggler
